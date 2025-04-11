@@ -1,0 +1,312 @@
+*{
+scroll-behavior: smooth;
+margin: 0;  
+padding: 0;
+box-sizing: border-box;
+}
+header{
+background-color: #333;
+display: flex ;
+justify-content: space-between;
+align-items: center ;
+padding: 20px 40px;
+color: aliceblue;
+z-index: 100;
+position: fixed;
+width: 100%;
+background: url(img/6.jpg);
+background-size: cover;
+}
+header h1{
+  font-size: 3re;
+  font-weight: 900;
+  width: 50%;
+  
+
+}
+header h2{
+  width: 40%;
+}
+ span{
+  color: #ff6347;
+}
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  width: 30%;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header ul li{
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+header ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 50px;
+  transition: all 0.3s ease-in-out;
+
+
+}
+header ul li a:hover{
+  color: #ff6347;
+}
+#HOME{
+  padding-top: 100px;
+}
+#HOME h2{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-card{
+  display: flex ;
+}
+.card { 
+  width: 33%;
+  gap: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+
+}
+.card h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+  color: #ff6347;
+  padding-top: 20px;
+}
+.card img {
+width: 100%;
+padding: 10px;
+
+}
+.card button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.card button a{
+  text-decoration: none;
+  color: white;
+}
+.card button:hover{
+  background-color: #333;
+  transform: scale(1.1);
+  color: #ff6347;
+}
+  
+
+#HOME .gee {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+  color: #1f0703;
+  padding: 40px;
+  padding-top: 30px;
+  padding-top: 50px;
+}
+
+.card-2 { 
+  width: 33%;
+  gap: 20px;
+  border: 1px solid #333;
+border-radius: 5px;
+}
+.card-2 h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+  color: #ff6347;
+  padding-top: 20px;
+}
+.card-2 img {
+width: 100%;
+
+}
+.card-2 button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+.card-2 button a{
+  text-decoration: none;
+  color: white;
+}
+.card-2 button:hover{
+  background-color: #333;
+  transform: scale(1.1);
+
+
+}
+#TEAM{
+  padding: 50px;
+
+}
+#TEAM h3{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.team{
+  display: flex;
+}
+.team-card{
+width: calc(95%/4);
+margin: 10px;
+border-radius: 5px;
+box-shadow: 10px 10px 20px 1px;
+transition: 0.5s ease;
+background: url(img/5.jpg);
+
+}
+.team-card:hover{
+  transform: scale(1.05);
+}
+#TEAM h2{
+font-size: 20px;
+padding: 20px 35px ;
+display: flex;
+text-align: center;
+
+}
+#TEAM img{
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  padding-top: 15px;
+
+
+
+}
+.imgs{
+display: flex;
+align-items: center;
+
+}
+.text{
+  margin-top: 20px;
+  padding:50px 50px;
+  font-size: 20px;
+  font-weight: 700;
+background: url(img/6.jpg);
+background-size: cover;
+color: aliceblue;
+background-position: right;
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+footer{
+  background-color: #333;
+  display: flex ;
+  justify-content: space-between;
+  align-items: center ;
+  padding: 20px 40px;
+  color: aliceblue;
+  z-index: 100;
+  width: 100%;
+  background: url(img/6.jpg);
+  
+  }
+  footer h1{
+    font-size: 3re;
+    font-weight: 900;
+    
+    width: 50%;
+  
+  }
+  footer h2{
+    width: 40%;
+  }
+   span{
+    color: #ff6347;
+  }
+  footer nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    width: 30%;
+  }
+  
+  footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  footer ul li{
+    font-size: 1.2rem;
+    font-weight: 600;
+  
+  }
+  footer ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 50px;
+  
+  }
+  footer ul li a:hover{
+    color: #ff6347;
+    transition: all 0.3s ease-in-out;
+    
+  }
+
+
+ 
